@@ -54,7 +54,7 @@ const Activities = () => {
                                     <p className="text-2lg text-black-100 font-semibold">
                                         The Museum of Modern Art
                                     </p>
-                                    <p className="text-black-90">
+                                    <p className="text-black-90 max-w-[300px]">
                                         Works from Van Gogh to Warhol & beyond
                                         plus a sculpture garden, 2 cafes & The
                                         modern restaurant
