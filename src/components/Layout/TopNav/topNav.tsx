@@ -25,39 +25,39 @@ const TopNav = () => {
                 />
             </div>
 
-            <div className="flex  gap-3 items-center text-gray-100 text-2sm">
-                <div className=" place-items-center">
+            <div className="flex  gap-3 items-center text-gray-100 text-2sm ">
+                <div className="flex flex-col place-items-center">
                     <PiHouse color="#667185" size="22px" />
                     <p className="mt-2">Home</p>
                 </div>
-                <div className=" place-items-center">
+                <div className=" place-items-center flex flex-col">
                     <img src={ChartSplice} alt="" className="w-6" />
                     <p className="mt-2">Dashboard</p>
                 </div>
-                <div className=" place-items-center">
+                <div className="flex flex-col place-items-center">
                     <PiWallet color="#667185"  size="22px"/>
                     <p className="mt-2">Wallet</p>
                 </div>
-                <div className=" place-items-center">
+                <div className="flex flex-col place-items-center">
                     <PiListChecksBold color="#344054"  size="22px"/>
                     <p className="mt-2 text-black-90 font-medium">Plan a trip</p>
                 </div>
-                <div className=" place-items-center border-r border-[#98A2B3] pr-3">
+                <div className="flex flex-col place-items-center border-r border-[#98A2B3] pr-3">
                     <PiHandCoins color="#667185"  size="22px"/>
                     <p className="mt-2">Commission for life</p>
                 </div>
 
                
                 <Button variant="primary">Subscribe</Button>
-                <div className=" place-items-center">
+                <div className="flex flex-col place-items-center">
                     <GoBell color="#667185"  size="22px"/>
                     <p className="mt-2">Notification</p>
                 </div>
-                <div className=" place-items-center">
+                <div className="flex flex-col place-items-center">
                     <PiBasket color="#667185"  size="22px"/>
                     <p className="mt-2">Carts</p>
                 </div>
-                <div className=" place-items-center">
+                <div className="flex flex-col place-items-center">
                     <PiPlusSquare color="#667185" size="22px" />
                     <p className="mt-2">Create</p>
                 </div>
